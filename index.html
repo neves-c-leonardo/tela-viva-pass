@@ -9,16 +9,17 @@
     </head>
     <body>
         <nav>
-            <div>
+            <div class="barra-navegacao">
                 <a href="#"><img src="img/logo.png" alt="Logo página Viva-Pass" width="150"></a>
 
-                <div>
+                <div class="navegadores">
                     <ul>
                         <li><a href="#">Inicial</a></li>
                         <li><a href="#contato">Contato</a></li>
                         <li><a href="#sobre">Sobre</a></li>
                     </ul>
                 </div>
+                
             </div>
         </nav>
 
@@ -79,8 +80,10 @@
                             <h3>Relatórios em Tempo Real</h3>
                             <p>Obtenha dados detalhados e atualizados sobre seu evento para decisões rápidas e informadas.</p>
                         </div>
+                        <div class="card-btn">
+                            <button class="btn-cta" id="bta-cadastreja" type="button">Cadastre já</button>
+                        </div>
                     </div>
-                    <button class="btn-cta" type="button">Cadastre já</button>
                 </div>
             </section>
             
@@ -149,7 +152,7 @@
                             <input type="tel" id="telefone" placeholder="Telefone" required>
                         </div>
                         <div class="form-group">
-                            <select id="segmento-evento" name="segmento-evento">
+                            <select id="segmento-evento" name="segmento-evento" required>
                                 <option value="" disabled selected>Segmento do Evento</option>
                                 <option value="formatura">Formatura</option>
                                 <option value="rodeio">Rodeio</option>
